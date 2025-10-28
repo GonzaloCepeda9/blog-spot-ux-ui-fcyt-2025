@@ -175,3 +175,102 @@ footer  p {
 }
 
 
+/* Page detalle-blog */
+
+/* .detalle-blog-section-img {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.detalle-blog-section-container-img {
+    display: grid;
+} */
+
+.detalle-blog-section-container-img img {
+    width: 100%;
+}
+
+.detalle-blog-section-descripcion h3 {
+    font-size: 18px;
+    line-height: 60px;
+    border-bottom: 1px solid #e6e9ed;
+    margin: 0;
+}
+
+.detalle-blog-section-descripcion h4 {
+    font-size: 24px;
+    margin: 24px 0 0 0;
+}
+
+.detalle-blog-section-descripcion-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 24px 60px;
+}
+
+/* Sección de contacto */
+
+.seccion-detalle-blog-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 24px 36px;
+    background-color: #e6e9ed;
+    font-size: 14px;
+}
+
+.contenedor-img-texto {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-img-texto img {
+    width: 60px;
+    height: 60px;
+    padding: 24px;
+}
+
+.contenedor-img-texto h5 {
+    border-bottom: 1px solid #000000
+}
+
+/* Page perfil */
+
+.perfil-section-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #e6e9ed;
+    gap: 24px;
+    padding: 24px;
+}
+
+.perfil-section-container-img img {
+    width: 100%;
+}
+
+.perfil-section-container-txt {
+    font-size: 12px;
+}
+
+.perfil-section-proyectos h3 {
+    margin: 0 48px;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #e6e9ed;
+    font-size: 18px;
+}
+
+.perfil-section-proyectos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+    padding: 0 48px;
+}
+
+.perfil-section-proyectos-container-article {
+    font-size: 14px;
+}
+
+.titulo-proyecto {
+    font-weight: 900;
+}
